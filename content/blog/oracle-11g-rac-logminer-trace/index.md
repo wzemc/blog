@@ -6,8 +6,6 @@ description: "一套 11g RAC 下线节点1后，alert 日志持续出现 LogMine
 categories: [database]
 tags: [oracle, rac, logminer, troubleshooting, cdc]
 ---
-一套 11g RAC 下线节点1后只剩节点3运行，alert 日志持续出现 LogMiner 信息。本文记录定位日志来源的过程，以及随后对废弃节点1的清理。文中输出均来自真实环境，主机名、账号、IP、路径已脱敏。
-
 ## 环境
 
 | 项目 | 内容 |
