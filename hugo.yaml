@@ -2,32 +2,32 @@
 
 title: Xiao Zhi Xiao He
 baseURL: https://blog.xjkj.org/
-defaultContentLanguage: en
+defaultContentLanguage: zh
 enableGitInfo: false
 enableRobotsTXT: true
 enableEmoji: true
 timeZone: Asia/Shanghai
 permalinks:
   page:
-    blog: /:sections[1:]/:slug/
+    blog: /:year/:slug/
   section:
     blog: /:sections[1:]
 languages:
-  en:
-    label: English
-    locale: en-US
-    weight: 1
-    title: Xiao Zhi Xiao He
-    params:
-      description: Notes and technical sharing.
   zh:
     label: 简体中文
     locale: zh-CN
-    weight: 2
+    weight: 1
     title: 小知小和
     hasCJKLanguage: true
     params:
       description: 知识沉淀与技术分享。
+  en:
+    label: English
+    locale: en-US
+    weight: 2
+    title: Xiao Zhi Xiao He
+    params:
+      description: Notes and technical sharing.
 
 # OINK's Markdown components depend on these three Goldmark settings.
 markup:
