@@ -1,4 +1,4 @@
 ---
-title: Project Name
-description: 你的项目文档、动态与实用指南。
+title: 小知小和
+description: Oracle、数据库、基础设施与 Homelab 的实践笔记。
 ---
