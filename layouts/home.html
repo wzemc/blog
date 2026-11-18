@@ -1,0 +1,15 @@
+{{- $target := "blog/" | relLangURL -}}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ site.Title }}</title>
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="{{ "blog/" | absLangURL }}">
+  <meta http-equiv="refresh" content="0; url={{ $target }}">
+  <script>location.replace({{ $target }});</script>
+</head>
+<body>
+  <p><a href="{{ $target }}">{{ site.Title }}</a></p>
+</body>
+</html>
