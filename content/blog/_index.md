@@ -1,6 +1,7 @@
 ---
-title: Blog
-description: Posts, design notes, and release announcements.
+title: Latest posts
+linkTitle: Blog
+description: Practical notes on Oracle, databases, infrastructure, and home lab experiments.
 type: blog
 icon: fa-solid fa-blog
 sidebar_root_for: self
@@ -14,5 +15,3 @@ cascade:
   footer_style: slim
   reading_time: true
 ---
-
-Follow the project through articles, design decisions, and release notes.

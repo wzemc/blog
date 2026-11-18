@@ -7,7 +7,11 @@ enableGitInfo: false
 enableRobotsTXT: true
 enableEmoji: true
 timeZone: Asia/Shanghai
-
+permalinks:
+  page:
+    blog: /:sections[1:]/:slug/
+  section:
+    blog: /:sections[1:]
 languages:
   en:
     label: English

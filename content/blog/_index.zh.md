@@ -1,6 +1,7 @@
 ---
-title: 博客
-description: 文章、设计记录与版本公告。
+title: 最新文章
+linkTitle: 博客
+description: Oracle、数据库、基础设施与 Homelab 的实践笔记。
 type: blog
 icon: fa-solid fa-blog
 sidebar_root_for: self
@@ -14,5 +15,3 @@ cascade:
   footer_style: slim
   reading_time: true
 ---
-
-通过文章、设计决策与版本说明了解项目进展。
